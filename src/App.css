@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background: linear-gradient(45deg, rgba(110, 67, 18, 0.7) 50%, rgba(236, 188, 126, 0.7) 50%); 
+}

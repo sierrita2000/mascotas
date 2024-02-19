@@ -1,0 +1,45 @@
+.formulario_mascota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario_mascota form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 0;
+}
+
+.formulario_mascota form label {
+    align-self: flex-start;
+    margin: 0 0 .5rem;
+}
+
+.formulario_mascota form input,
+.formulario_mascota form textarea {
+    margin: 0 0 1rem;
+    width: 100%;
+    padding: .5rem;
+    background-color: rgb(224, 200, 169);
+    border: 1px solid black;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.formulario_mascota form textarea {
+    resize: none;
+    height: 8rem;
+}
+
+.formulario_mascota__botones button {
+    margin: 0 2rem;
+    padding: .5rem 1rem;
+    font-size: 20px;
+    background-color: rgba(236, 188, 126, 0.9);
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}

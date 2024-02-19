@@ -1,0 +1,75 @@
+.header {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombre {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.nombre button {
+    font-size: 25px;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    background-color: rgba(245, 245, 245, 0.4);
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 2rem 0 0;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.nombre button:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nombre button:active {
+    transform: scale(1);
+    box-shadow: none;
+}
+
+.nombre h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.logo_usuario {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo_usuario p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.circulo_usuario {
+    position: relative;
+    top: -8px;
+    margin: 0 0 0 4px;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(25, 168, 25);
+    border-radius: 50%;
+}
+
+.logo_usuario img {
+    height: 90%;
+    margin: 0 10rem 0 2rem;
+    filter: drop-shadow(0 0 5px black);
+    transition: all .3s ease-in-out;
+}
+
+.logo_usuario img:hover {
+    transform: scale(1.05) rotate(5deg);
+    filter: drop-shadow(0 0 8px black);
+}

@@ -1,0 +1,70 @@
+.modal_mascota_nueva {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_mascota_nueva__modal {
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgb(150, 92, 27);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.modal_mascota_nueva__modal__botones {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal_mascota_nueva__modal__botones button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform .1s ease-in-out;
+}
+
+.modal_mascota_nueva__modal__botones button:hover {
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+.modal_mascota_nueva__modal__botones i {
+    font-size: 30px;
+}
+
+.modal_mascota_nueva__modal__pregunta {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1rem 0 2rem;
+}
+
+.modal_mascota_nueva__modal__opciones {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal_mascota_nueva__modal__opciones button {
+    margin: 0 0 2rem;
+    padding: .5rem 2rem;
+    font-size: 30px;
+    background-color: rgba(236, 188, 126, 0.7);
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}

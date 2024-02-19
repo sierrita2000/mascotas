@@ -1,0 +1,141 @@
+.info_mascotas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mascota {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_mascotas__imagen,
+.info_mascotas__info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+.info_mascotas__imagen {
+    height: 28rem;
+    border: 2px solid black;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+.info_mascotas__imagen img {
+    height: 85%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info_mascotas__imagen__botones {
+    height: 15%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_mascotas__imagen__botones button {
+    height: 110%;
+    width: 55%;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: rgba(236, 188, 126, 0.7);
+}
+
+.info_mascotas__imagen__botones button:active {
+    font-size: 23px;
+}
+
+.info_mascotas__info {
+    width: 30%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.info_mascotas__info__section {
+    height: fit-content;
+    width: 100%;
+}
+
+.section__titulo {
+    width: 100%;
+    padding: .5rem 0;
+    background-color: rgba(110, 67, 18, 0.6);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section__titulo h2 {
+    color: black;
+    font-size: 30px;
+    margin: 0 1rem;
+}
+
+.flecha {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all .5s ease-in-out;
+}
+
+.flecha__girada {
+    transform: rotate(180deg);
+}
+
+.section__contenido {
+    border: 1px solid black;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__contenido p {
+    font-size: 20px;
+}
+
+.section__contenido__mostrada {
+    height: 6rem;
+}
+
+.boton_encontrado {
+    padding: .5rem 1rem;
+    margin: 2rem 0;
+    background-color: rgba(92, 109, 18, 0.7);
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.boton_encontrado:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.boton_encontrado:active {
+    transform: scale(1);
+    box-shadow: none;
+}
+
+.boton_encontrado p {
+    font-size: 30px;
+    font-weight: bold;
+}
